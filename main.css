@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #dea9a9;
+    background-color: rgb(244, 144, 147);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    background-color: #e3f611;
+    padding: 0.5cm ;
+}
+
+p{
+    color: #0f0e0e;
+}
+h1{
+    color: #1b1919;
+}
+span{
+    color: yellow;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+.container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.content {
+    width: 50%;
+}
+.contact input, .contact textarea {
+   
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+}
+.contact button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    background: #dea9a9;
+    color: #111112;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FAF303 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #FAF303;
+    font-weight: bold;
+}
+
+.portfolio-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-table th,
+.portfolio-table td {
+    padding: 12px 15px;
+}
+
+.portfolio-table tr {
+    border-bottom: 1px solid;
+}
+.portfolio-table tr:last-of-type {
+    border-bottom: 2px solid #FAF303;
+}
+.align-right {
+    float: right;
+}
+
+label {
+    color:rgb(29, 28, 26);
+}
+td{
+    text-align: center; 
+    color:  #1e1c1c; 
+    height: 70px;
+}
+td.column {
+    width: 33%; 
+    vertical-align: top; 
+    background-color: #f0cece;
+}
+table{
+    width: 100%; height: 100%; border-collapse: collapse;
+}
+a{
+    display: inline-block; justify-content: space-around; margin: 20px 0;
+}
+a {
+    color: rgb(61, 109, 149);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(61, 109, 149);
+  }
+  a:hover { text-decoration: none; color: rgb(27, 27, 25); font-weight: bolder; }
